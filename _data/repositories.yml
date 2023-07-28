@@ -1,12 +1,6 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - xuhui-hu
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - xuhui-hu/SciData2021
+  - xuhui-hu/xuhui-hu.github.io

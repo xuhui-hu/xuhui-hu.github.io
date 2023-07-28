@@ -6,7 +6,7 @@ subtitle: <a href='http://english.sibet.cas.cn/'>Suzhou Institution of Biomedica
 
 profile:
   align: right
-  image: my_pic.png
+  image: my_pic_grey.png
   image_circular: false # crops the image to make it circular
   address: >
     <p>Tel: +86-18806254119</p>
@@ -25,7 +25,7 @@ social: true  # includes social icons at the bottom of the page
 
 [//]: # (Link to your social media connections, too. This theme is set up to use [Font Awesome icons]&#40;http://fortawesome.github.io/Font-Awesome/&#41; and [Academicons]&#40;https://jpswalsh.github.io/academicons/&#41;, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.)
 
-[Dr. Hu](https://www.researchgate.net/profile/Xuhui-Hu-2) received PhD degree from Prof. [Song Aiguo](https://scholar.google.com/citations?user=RjQ5TrEAAAAJ&hl=zh-CN&oi=ao)'s group at Southeast University, China in 2022. The group has long been engaged in the research of **teleoperations**, **haptics** and **neuroprosthetics**, etc. 
+[Dr. Hu](https://www.researchgate.net/profile/Xuhui-Hu-2) received PhD degree from Prof. [Song Aiguo](https://scholar.google.com/citations?user=RjQ5TrEAAAAJ&hl=zh-CN&oi=ao)'s group at [Southeast University](www.seu.edu.cn), China in 2022. Our group has long been engaged in the research of **teleoperations**, **haptics** and **neuroprosthetics**, etc. 
 
 Since 2016, Dr. Hu have been engaged into the project of myoelectric prosthetic hand, and have carried out a series of researches on **prosthetic mechanism design**, **myoelectric signal decoding**, and **sensory reconstruction**. 
 
