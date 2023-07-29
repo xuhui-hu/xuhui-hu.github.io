@@ -1,61 +1,66 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Xuhui Hu",
+    "label": "",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
-    "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
-    },
-    "profiles": [
-      {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
-      }
-    ]
+    "email": "brain94hxh@gmail.com",
+    "phone": "(+86) 188-0625-4119",
+    "url": "https://xuhui-hu.github.io/",
+    "summary": ""
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
+      "name": "Suzhou Institute of Biomedical Engineering and Technology",
+      "position": "Postdoctoral Research Scholar",
+      "url": "http://english.sibet.cas.cn/",
+      "startDate": "2023-01-01",
+      "endDate": "now",
+      "summary": "",
       "highlights": [
-        "Relativity"
+        "CYBATHLON CHALLENGE 2023 ARM Winner"
       ]
     }
   ],
   "volunteer": [],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
+      "institution": "Southeast University",
+      "url": "https://www.seu.edu.cn/",
+      "area": "Instrument Science and Technology",
       "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
+      "startDate": "2016-09-01",
+      "endDate": "2022-12-19",
       "score": "",
       "courses": [
-        "Theory of Relativity"
+        "Neuroprosthetics"
+      ]
+    },
+    {
+      "institution": "Changshu Institute of Technology",
+      "url": "https://www.cslg.edu.cn/",
+      "area": "Electrical Engineering and Automation",
+      "studyType": "B.Eng.",
+      "startDate": "2012-09-01",
+      "endDate": "2016-06-01",
+      "score": "",
+      "courses": [
+        "Circuits",
+        "Automation Theory"
       ]
     }
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "title": "1st Place in ARM Discipline at CYBATHLON CHALLENGE 2023",
+      "date": "2023-03",
+      "awarder": "ETH Zurich",
+      "summary": "CYBATHLON is a non-profit project of ETH Zurich, acts as a platform that challenges teams from all over the world to develop assistive technologies suitable for everyday use with and for people with disabilities. The driving force behind CYBATHLON is international competitions and events, in which teams consisting of technology developers from universities, companies or NGOs and a person with disabilities tackle various everyday tasks with their latest assistive technologies."
+    },
+    {
+      "title": "China National Scholarship",
+      "date": "2021-11",
+      "awarder": "Ministry of Education of the People's Republic of China",
+      "summary": "National Scholarship is a scholarship funded by the central government to reward outstanding students, and its assessment is the most standardised and strictest criteria. Every year, more than 2,000 colleges and universities with nearly 27 million students compete for 60,000 national scholarships, with only 0.2 per cent of the students receiving them."
     }
   ],
   "certificates": [],
@@ -63,7 +68,7 @@
   "skills": [],
   "languages": [
     {
-      "language": "German",
+      "language": "Chinese",
       "fluency": "Native speaker"
     },
     {
