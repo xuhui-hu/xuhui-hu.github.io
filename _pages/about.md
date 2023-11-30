@@ -25,8 +25,14 @@ social: true  # includes social icons at the bottom of the page
 
 [//]: # (Link to your social media connections, too. This theme is set up to use [Font Awesome icons]&#40;http://fortawesome.github.io/Font-Awesome/&#41; and [Academicons]&#40;https://jpswalsh.github.io/academicons/&#41;, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.)
 
-[Dr. Hu](https://www.researchgate.net/profile/Xuhui-Hu-2) received PhD degree from Prof. [Song Aiguo](https://scholar.google.com/citations?user=RjQ5TrEAAAAJ&hl=zh-CN&oi=ao)'s group at [Southeast University](www.seu.edu.cn), China in 2022. Our group has long been engaged in the research of **teleoperations**, **haptics** and **neuroprosthetics**, etc. 
+[Dr. Hu](https://www.researchgate.net/profile/Xuhui-Hu-2) received PhD degree from Prof. [Song Aiguo](https://scholar.google.com/citations?user=RjQ5TrEAAAAJ&hl=zh-CN&oi=ao)'s group at [Southeast University](www.seu.edu.cn), China in 2022. Prof. Song's group has long been engaged in the research of **teleoperations**, **haptics** and **neuroprosthetics**, etc. 
 
 Since 2016, Dr. Hu have been engaged into the project of myoelectric prosthetic hand, and have carried out a series of researches on **prosthetic mechanism design**, **myoelectric signal decoding**, and **sensory reconstruction**. 
+
+In March 2023, Dr. Hu led the prosthetic group SIBET to win the 1st place of the [CYBATHLON CHALLENGE 2023](https://cybathlon.ethz.ch/en/events/challenges/Challenges-2023) ARM discipline.
+
+GoogleScholar: [Link](https://scholar.google.com/citations?user=o-gCG4kAAAAJ&hl=en&inst=6453797383205921872)
+
+ResearchGate: [Link](https://www.researchgate.net/profile/Xuhui-Hu-2)
 
 [//]: # (After working with a number of upper limb amputees, it has not only built up my clinical experience, but also inspires me to delve further into research to help those in need.)
