@@ -3,9 +3,9 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: You
-middle_name: R.
-last_name: Name
+first_name: Xuhui
+middle_name:
+last_name: Hu
 contact_note: >
   You can even add a little note about which of these is the best way to reach you.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
@@ -16,7 +16,7 @@ footer_text: >
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: 🦾 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://xuhui-hu.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
@@ -642,3 +642,25 @@ jsonresume:
   - languages
   - interests
   - references
+# -----------------------------------------------------------------------------
+# Multi-language support (jekyll-polyglot)
+# -----------------------------------------------------------------------------
+languages: ["en", "zh"] # 这里定义你的语言代码
+default_lang: "en" # 默认语言
+exclude_from_localization: [
+    "javascript",
+    "images",
+    "css",
+    "assets",
+    "dist", # al-folio 的样式生成在这里，必须排除
+    "vendor",
+    "Gemfile",
+    "node_modules",
+    ".git",
+    "_data",
+    "_includes",
+    "_layouts",
+    "_sass",
+  ]
+lang_from_path: true # 允许通过 /zh/ 路径推断语言
+parallel_localization: false # ⚠️ 改为 false，参考官方，牺牲一点构建速度换取稳定性

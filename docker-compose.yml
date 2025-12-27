@@ -1,21 +1,21 @@
-# this file uses prebuilt image in dockerhub
 services:
   jekyll:
     image: amirpourmand/al-folio:v0.14.7
-    build: .
-    # uncomment these if you are having this issue with the build:
-    # /usr/local/bundle/gems/jekyll-4.3.4/lib/jekyll/site.rb:509:in `initialize': Permission denied @ rb_sysopen - /srv/jekyll/.jekyll-cache/.gitignore (Errno::EACCES)
-    # and fill the args values with the output of the commands on the right
-    # build:
-    #   args:
-    #     GROUPID: # id -g
-    #     GROUPNAME: # id -gn
-    #     USERID: # id -u
-    #     USERNAME: # echo $USER
+    # 强制设置容器内的工作目录
+    working_dir: /srv/jekyll
     ports:
       - 8080:8080
       - 35729:35729
     volumes:
       - .:/srv/jekyll
+      # 建议改用 ./.bundle_cache，避免和本地 vendor 混淆，且方便持久化
+      - ./.bundle_cache:/usr/local/bundle
     environment:
       - JEKYLL_ENV=development
+      - PWD=/srv/jekyll
+      # 双重保险：通过环境变量也传一次镜像源
+      - BUNDLE_MIRROR__HTTPS://RUBYGEMS__ORG/=https://gems.ruby-china.com/
+    command: >
+      bash -c "git config --global --add safe.directory '*' && 
+      bundle install && 
+      bundle exec jekyll serve --host 0.0.0.0 --port 8080 --livereload"
