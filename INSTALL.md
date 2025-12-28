@@ -47,12 +47,13 @@ docker compose down
 # 启动服务
 docker compose up
 ```
+如果拉不下来，大概率换条速度快的线路。
 
 ### 3. 预览地址
 
 在 Windows 浏览器输入：
 
-* **访问网址**: [http://localhost:8080](https://www.google.com/search?q=http://localhost:8080)
+* **访问网址**: [http://localhost:8080](http://localhost:8080)
 
 
 ---

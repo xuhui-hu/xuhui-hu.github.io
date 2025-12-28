@@ -645,8 +645,8 @@ jsonresume:
 # -----------------------------------------------------------------------------
 # Multi-language support (jekyll-polyglot)
 # -----------------------------------------------------------------------------
-languages: ["en", "zh"] # 这里定义你的语言代码
-default_lang: "en" # 默认语言
+languages: ["en-gb", "zh-cn"] # 这里定义你的语言代码
+default_lang: "en-gb" # 默认语言
 exclude_from_localization: [
     "javascript",
     "images",
@@ -664,3 +664,4 @@ exclude_from_localization: [
   ]
 lang_from_path: true # 允许通过 /zh/ 路径推断语言
 parallel_localization: false # ⚠️ 改为 false，参考官方，牺牲一点构建速度换取稳定性
+country_flag: true # set true for allowing flag symbol in language toggle

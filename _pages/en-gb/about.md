@@ -1,7 +1,7 @@
 ---
 layout: about
-title: about
 permalink: /
+title: about
 # 在这里更新你的新头衔
 subtitle: <a href='https://ins.seu.edu.cn/hxh/list.htm'>Assistant Professor</a> at <a href='https://www.seu.edu.cn/english/'>Southeast University</a>.
 
@@ -33,7 +33,7 @@ Dr. **Xuhui Hu** is currently an **Assistant Professor** at the School of Instru
 His research focuses on **Human-Machine Integrated Dexterous Myoelectric Prostheses**. This involves developing intelligent measurement and control systems that not only control prosthetic hands by detecting electrophysiological signals from residual limbs but also provide sensory feedback to users. His work encompasses key technologies in **Embodied AI**, including electrophysiological signal acquisition and processing, sensory feedback reconstruction, and human-machine shared control, representing a frontier research area in Instrument Science.
 
 **Representative Achievements:**
-* Published a first-author paper in **[Science Robotics](https://www.science.org/journal/scirobotics)** (IF=27.5).
+* Published a first-author paper in **[Science Robotics](https://www.science.org/journal/scirobotics)** (IF=26.5).
 * **Champion**, Global Assistive Technology Competition (**[CYBATHLON 2024](https://cybathlon.ethz.ch/)**) Arm Prosthesis Race.
 * **Grand Prize Winner** ("1st Place"), "Challenge Cup" National College Student Competition (Special Track).
 
