@@ -8,14 +8,14 @@ services:
       - 35729:35729
     volumes:
       - .:/srv/jekyll
-      # 建议改用 ./.bundle_cache，避免和本地 vendor 混淆，且方便持久化
-      - ./.bundle_cache:/usr/local/bundle
+      # 核心修改：将容器内的路径映射到你本地的 vendor/bundle
+      - ./vendor/bundle:/usr/local/bundle
     environment:
       - JEKYLL_ENV=development
       - PWD=/srv/jekyll
-      # 双重保险：通过环境变量也传一次镜像源
-      - BUNDLE_MIRROR__HTTPS://RUBYGEMS__ORG/=https://gems.ruby-china.com/
+
     command: >
       bash -c "git config --global --add safe.directory '*' && 
+      bundle config set --local path 'vendor/bundle' && 
       bundle install && 
       bundle exec jekyll serve --host 0.0.0.0 --port 8080 --livereload"
