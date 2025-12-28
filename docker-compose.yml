@@ -8,12 +8,15 @@ services:
       - 35729:35729
     volumes:
       - .:/srv/jekyll
-      # 核心修改：将容器内的路径映射到你本地的 vendor/bundle
+      # ✅ 重点 1: 确保已有的依赖被持久化到本地 vendor/bundle，不用每次重启都下载
       - ./vendor/bundle:/usr/local/bundle
     environment:
       - JEKYLL_ENV=development
       - PWD=/srv/jekyll
-
+      # ✅ 重点 2: 只有本地 Docker 运行时才会生效的“影子镜像源”
+      # 这是一个魔法配置：它告诉 Docker "当你看到 rubygems.org 时，自动偷偷去上海交大下载"
+      # 上海交大源地址: https://mirrors.sjtug.sjtu.edu.cn/rubygems/
+      # - BUNDLE_MIRROR__HTTPS://RUBYGEMS__ORG/=https://mirrors.sjtug.sjtu.edu.cn/rubygems/
     command: >
       bash -c "git config --global --add safe.directory '*' && 
       bundle config set --local path 'vendor/bundle' && 
