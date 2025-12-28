@@ -16,7 +16,7 @@ group :jekyll_plugins do
     gem 'jekyll-scholar'
     gem 'jekyll-sitemap'
     gem 'jekyll-tabs'
-    gem 'jekyll-terser'#, path: './_plugins/jekyll-terser'
+    # gem 'jekyll-terser'#, path: './_plugins/jekyll-terser'
     gem 'jekyll-toc'
     gem 'jekyll-twitter-plugin'
     gem 'jemoji'
